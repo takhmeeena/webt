@@ -1,0 +1,627 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero-section {
+  background: url('images/background.jpg') center/cover no-repeat;
+  height: 70vh;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+}
+
+.section-title {
+  color: #464646;
+  margin-bottom: 1rem;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.menu-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list .price {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer a:hover {
+  color: #464646;
+}
+
+header {
+  background-color: #d35400;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #d35400;
+  text-align: center;
+}
+
+
+input, select, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d35400;
+}
+
+
+.note {
+  font-size: 13px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 50vh;
+  }
+
+  main {
+    margin: 20px;
+  }
+}
+
+.success-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 12px;
+
+  color: #155724;
+  margin: 20px auto;
+}
+
+.success-message h2 {
+  color: #155724;
+}
+
+.success-message a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.success-message a:hover {
+  text-decoration: underline;
+}
+
+.profile-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  color: #d35400;
+  text-align: center;
+}
+
+.profile-container p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.profile-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.profile-container button:hover {
+  background-color: #d30000;
+}
+
+.profile-container a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.profile-container a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f0;
+  margin: 20px;
+}
+
+.admin-controls {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fef3e2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-controls h2, 
+.admin-controls h3 {
+  color: #a0522d;
+}
+
+.input-field {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a34e13;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.menu-list li {
+  background-color: #fff;
+  border-left: 5px solid #d2691e;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+.button {
+  padding: 8px 12px;
+  margin: 5px;
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  background: #f3f3f3;
+  padding: 8px;
+  margin: 5px 0;
+  border-left: 5px solid #d2691e;
+}
+.registration-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.registration-card:hover {
+  transform: translateY(-5px);
+}
+
+.input-group-text {
+  min-width: 45px;
+  justify-content: center;
+}
+
+.toggle-password {
+  cursor: pointer;
+}
+
+.form-check-label a {
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+
+.form-check-label a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .registration-card {
+      border-radius: 0;
+  }
+  
+  .card-body {
+      padding: 1.5rem;
+  }
+} 
+
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.price {
+  font-weight: bold;
+}
+
+body.logic-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.logic-header {
+  background-color: #464646;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logic-main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.logic-section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logic-title {
+  color: #464646;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logic-input {
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.logic-input:focus {
+  border-color: #464646;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70,70,70,0.1);
+}
+
+.logic-btn {
+  margin: 20px 0;
+  padding: 14px 28px;
+  background-color: #464646;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.logic-btn:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.logic-result {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #464646;
+}
+
+.logic-list {
+  margin: 25px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logic-list-item {
+  background-color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.logic-list-item:hover {
+  transform: translateX(5px);
+}
+
+.logic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.logic-grid-item {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.logic-grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.logic-footer {
+  background-color: #464646;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .logic-main {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .logic-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .logic-btn {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+.delete-btn {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  font-size: 12px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ff5252;
+}
+
+
+#playMusicBtn {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+#stopMusicBtn {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+
+.navbar-brand strong {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 80px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #333;
+}
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+}
+
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: #fd7e14;
+  box-shadow: 0 0 0 0.25rem rgba(253, 126, 20, 0.25);
+}
+
+.btn-primary {
+  background-color: #fd7e14;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #fd7e14;
+}
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.toggle-password:hover {
+    color: #fff;
+}
+
+.btn-main {
+  background-color: #fd7e14;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #e96b0b;
+  color: #fff;
+}
+
+.btn-main {
+  background-color: #fd7e14;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #e96b0b;
+  color: #fff;
+}
+/* 1.3 Custom map styles */
+#map { 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    transition: all 0.3s;
+}
+
+#map:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* 3.1 Popup styling */
+.leaflet-popup-content {
+    font-family: 'Arial', sans-serif;
+    min-width: 200px;
+}
